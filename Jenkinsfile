@@ -27,7 +27,7 @@ pipeline {
                 )]) {
                     bat '''
                     @echo off
-                    docker login -u apekshagowda56 --password-stdin < NUL
+                    docker login -u apekshagowda56 --password-stdin 
                     '''
                 }
             }
